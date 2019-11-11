@@ -10,7 +10,7 @@ public class Fblogin {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		 System.setProperty("webdriver.gecko.driver", "E:\\Sandhya_Java\\Software\\geckodriver.exe");
-		 System.out.println("This is  not an comment at 11:20 PM...");
+		 System.out.println("This is not an comment at 11:20 PM...");
 		WebDriver driver= new FirefoxDriver();
 		 driver.get("https://www.facebook.com");
 		
