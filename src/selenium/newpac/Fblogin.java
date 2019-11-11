@@ -13,7 +13,9 @@ public class Fblogin {
  
 		WebDriver driver= new FirefoxDriver();
 		 driver.get("https://www.facebook.com");
+		
 		 System.out.println("fb page opened");
+		 
 		 driver.manage().window().maximize();
 		 Thread.sleep(1000);
 		 System.out.println("page opened successfully");
